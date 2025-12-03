@@ -7,7 +7,7 @@ while (gasTank > 0) {
 
 
   // ciclo do while
-let gasTank = 50;
+export let gasTank = 50;
 
 do {
   console.log('Gasolina restante', gasTank);
