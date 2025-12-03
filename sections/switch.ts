@@ -1,4 +1,4 @@
-let weekDay = 7;
+export let weekDay = 7;
 switch (weekDay) {
 
   case 0:
