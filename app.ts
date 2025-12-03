@@ -1,11 +1,14 @@
-//Strings
-let firstName = "Manuel";
-let lastName = "Perilla";
+console.log('Inicio de Programa')
 
-//console.log(firstName, lastName);
-let fullName = `${firstName} ${lastName}`;
-console.log(fullName);
 
-let number1 = 10;
-let number2 = 20;
-console.log(`El resultado de la resta es: ${number1 - number2}`);
+let isTired = true;
+
+if (isTired === true) {
+    console.log('Estoy cansado, necesito descansar');
+} else {
+    console.log('No estoy cansado, puedo seguir trabajando');
+}
+
+
+
+console.log('Fin de Programa')
