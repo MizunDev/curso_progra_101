@@ -1,5 +1,16 @@
-//Strings
-let firstName = "Manuel";
-let lastName = "Perilla";
+console.log('Inicio de Programa')
 
-console.log("Nombre Completo: " + firstName + " " + lastName);
+
+let isTired = true;
+
+if (isTired) {
+    console.log('Estoy cansado, necesito descansar');
+}
+
+if (!isTired) {
+    console.log('No estoy cansado, puedo seguir trabajando');
+}
+
+
+
+console.log('Fin de Programa')
