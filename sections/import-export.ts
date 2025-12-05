@@ -3,7 +3,7 @@ import {
          substractTwoNumbers,
          timesTwoNumbers,
          divideTwoNumbers 
-} from './helpers/math-helpers';
+} from '../helpers/math-helpers';
 
 //let firstName: string = 'Manuel';
 let num1: number = 30;
