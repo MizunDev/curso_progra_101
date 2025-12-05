@@ -1,26 +1,28 @@
-console.log('Inicio de Programa')
 
+console.log('Inicio de programa');
 
-//let isTired = true;
+export let isTired:boolean = false;
 
-//if (isTired) {
-//    console.log('Estoy cansado, necesito descansar');
-//}
+// if ( isTired ) {
+//     console.log('Tomar café');    
+// } else {
+//     console.log('Tomar agua');    
+// }
 
-//if (!isTired) {
-//    console.log('No estoy cansado, puedo seguir trabajando');
-//}
+// if ( !isTired ) {
+//     console.log('Tomar Agua')
+// }
 
-export let grade: number = 49;
+let grade:number = 35;
 
-if (grade >= 60) {
-    console.log('Aprobado');
+if ( grade >= 60 ) {
+    console.log('El alumno aprueba la clase!');
+} else if( grade > 50 ) {
+    console.log('Por favor estudie más!')
 } else {
-    if (grade >= 50 && grade < 60) {
-        console.log('Por favor estudia más');
-    } else {
-    console.log('Reprobado');
-    }
-}   
+    console.log('El alumno NO aprueba la clase');
+}
 
-console.log('Fin de Programa')
+
+
+console.log('Fin de programa');

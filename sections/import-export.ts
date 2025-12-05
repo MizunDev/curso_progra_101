@@ -1,26 +1,21 @@
-import { 
-         addTwoNumbers,
-         substractTwoNumbers,
-         timesTwoNumbers,
-         divideTwoNumbers 
+import {
+     addTwoNumbers, 
+     divideTwoNumbers, 
+     substractTwoNumbers,
+     timesTwoNumbers,
 } from '../helpers/math-helpers';
 
-//let firstName: string = 'Manuel';
-let num1: number = 30;
-let num2: number = 20;
+// let firstName = 'Juan';
+let num1 = 10;
+let num2 = 20;
 
-//greet(firstName);
-let total: number = addTwoNumbers(num1, num2);
-let result: number = substractTwoNumbers(num1, num2);
-let multiplyResult: number = timesTwoNumbers(num1, num2);
-let divideResult: number = divideTwoNumbers(num1, num2);
+// greet( firstName );
+let total1: number = addTwoNumbers( num1, num2 );
+let total2: number = substractTwoNumbers( num1, num2 );
+let total3: number = timesTwoNumbers( num1, num2 );
+let total4: number = divideTwoNumbers( num1, num2 );
 
-console.log('Total: ', total);
-console.log('Result: ', result);
-console.log('Multiply Result: ', multiplyResult);
-console.log('Divide Result: ', divideResult);
-
-/*
-let firstName = 'Manuel'; */
-
-// greet(firstName);
+console.log('add: ', total1 );
+console.log('substract: ', total2 );
+console.log('Times: ', total3 );
+console.log('Divide: ', total4 );
