@@ -1,35 +1,31 @@
-export let weekDay = 7;
-switch (weekDay) {
 
-  case 0:
-    console.log("Es lunes");
-    break;
+export let weekDay: number = 5; // 1 = Lunes, 2=Martes, 3=Miércoles...
 
-  case 1:
-    console.log("Es martes");
-    break;
+if ( weekDay <= 0 ) {
+    // console.log('Día de la semana no permitido');
+    throw new Error('Día de la semana no permitido');
+} 
 
-  case 2:
-    console.log("Es miércoles");
-    break;
+switch( weekDay ) {
+    
+    // weekDay === 1
+    case 1: 
+        console.log('Es lunes');
+        break;
 
-  case 3:
-    console.log("Es jueves");
-    break;
+    // weekDay === 2
+    case 2:
+        console.log('Es martes');
+        break;
 
-    case 4:
-    console.log("Es viernes");
-    break;
-
-  case 5:
-    console.log("Es sábado");
-    break;
-
-  case 6:
-    console.log("Es domingo");
-    break;
+    // weekDay === 3
+    case 3:
+        console.log('Es miércoles');
+        break;
     
     default:
-    console.log("Día no válido");
-    break;
+        console.log('No es lunes, martes o miércoles');
 }
+
+
+

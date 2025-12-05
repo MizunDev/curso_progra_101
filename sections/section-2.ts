@@ -1,13 +1,12 @@
-let numberOfLines = 1;
+let numberOfLines = 0;
 
 export function printLineNumber() {
-    console.log('Línea #', numberOfLines);
     numberOfLines++;
+    console.log('Línea #', numberOfLines );
 }
 
 printLineNumber();
 printLineNumber();
 printLineNumber();
 printLineNumber();
-
 

@@ -1,18 +1,26 @@
-/* let gasTank = 50;
+// Ciclo While
+// let gasTank = 0;
 
-while (gasTank > 0) {
-  console.log('Gasolina restante', gasTank);
-  gasTank --;
-} */
+// while ( gasTank > 0 ) {
+//     console.log('Gasolina restante', gasTank );
 
+//     gasTank--;
+// }
 
-  // ciclo do while
-export let gasTank = 50;
+// console.log('Ya no tiene gasolina');
+
+// Ciclo Do While
+export let gasTank = 0;
 
 do {
-  console.log('Gasolina restante', gasTank);
-  gasTank --;
+    console.log('Gasolina restante', gasTank );
 
-} while (gasTank > 0);
+    gasTank--;
 
-console.log('Se ha acabado la gasolina');
+} while ( gasTank > 0 );
+
+
+console.log('Ya no tiene gasolina');
+
+
+
